@@ -110,6 +110,7 @@ ___
 #### 🚀 Deployment & DevOps
 Leverages Docker for containerized development and production environments. CI/CD pipelines automate testing and deployment, ensuring smooth and consistent updates.
 
+---
 ### API Security
 Security is a critical component of this Airbnb Clone backend to protect sensitive user data, ensure safe transactions, and maintain trust in the platform. The following key measures will be implemented:
 
@@ -128,6 +129,13 @@ Sensitive information such as passwords will be hashed, and payment data will be
 #### 📬 Input Validation & Error Handling
 All user input will be validated to prevent common vulnerabilities like SQL injection and XSS. Proper error handling will also prevent sensitive information from being exposed in responses.
 
+---
+### CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the process of testing, building, and deploying code. They help maintain code quality, catch bugs early, and ensure that new features or fixes are delivered quickly and reliably.
 
+For this project, CI/CD pipelines are used to automatically run tests, build Docker containers, and deploy updates to the production environment. This ensures a smooth development workflow and reduces the chances of human error during deployment.
 
+**Tools Used:**
+- **GitHub Actions**: Automates testing and deployment workflows.
+- **Docker**: Ensures consistent environments across development, testing, and production.
 
