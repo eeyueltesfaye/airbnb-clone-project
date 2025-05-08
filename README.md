@@ -110,8 +110,23 @@ ___
 #### 🚀 Deployment & DevOps
 Leverages Docker for containerized development and production environments. CI/CD pipelines automate testing and deployment, ensuring smooth and consistent updates.
 
+### API Security
+Security is a critical component of this Airbnb Clone backend to protect sensitive user data, ensure safe transactions, and maintain trust in the platform. The following key measures will be implemented:
 
+#### 🔑 Authentication
+Token-based authentication (such as JWT or DRF’s TokenAuth) will be used to verify user identity. This ensures that only legitimate users can access protected resources and perform actions.
 
+#### 🛡️ Authorization
+Role-based access control (RBAC) will restrict actions based on user roles (e.g., guest vs. host). This prevents unauthorized access to data or features, such as preventing guests from editing property listings.
+
+#### 📈 Rate Limiting
+Rate limiting will be applied to prevent abuse of the API through excessive requests. This helps defend against brute-force attacks and protects server resources.
+
+#### 🔒 Data Protection
+Sensitive information such as passwords will be hashed, and payment data will be handled securely via third-party services. This ensures user credentials and financial data are protected from breaches.
+
+#### 📬 Input Validation & Error Handling
+All user input will be validated to prevent common vulnerabilities like SQL injection and XSS. Proper error handling will also prevent sensitive information from being exposed in responses.
 
 
 
