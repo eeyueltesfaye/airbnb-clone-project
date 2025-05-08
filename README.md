@@ -91,24 +91,18 @@ The database is structured to reflect the core functionality of an Airbnb-like p
 ### Feature Breakdown
 #### 👤 User Management
 Handles user registration, login, and profile updates. Differentiates between guests and hosts, ensuring secure access and personalized functionality for each role.
-___
+
 #### 🏠 Property Management
 Allows hosts to create, update, and manage property listings. Each property includes detailed information such as title, description, location, and price per night.
-___
+
 #### 📆 Booking System
 Enables users to book available properties for specific dates. It also prevents overlapping bookings and provides a clear record of past and upcoming reservations.
-___
+
 #### 💳 Payment Processing
 Processes payments securely for confirmed bookings. Integrates with a payment gateway and records transaction details and payment status.
-___
+
 #### ⭐ Review System
 Allows guests to leave ratings and reviews for properties after their stay. Helps maintain trust and quality by giving feedback to hosts and aiding future guests in decision-making.
-___
-#### ⚙️ Asynchronous Task Handling
-Uses Celery and Redis to manage background tasks like sending notifications and processing payments, improving app responsiveness and reliability.
-___
-#### 🚀 Deployment & DevOps
-Leverages Docker for containerized development and production environments. CI/CD pipelines automate testing and deployment, ensuring smooth and consistent updates.
 
 ---
 ### API Security
